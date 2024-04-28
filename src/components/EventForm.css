@@ -1,0 +1,111 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+
+body {
+	background-color: rgb(112, 197, 125);
+  }
+  
+  .event-list {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .event-card {
+	background-color: #5289b9;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	margin: 10px;
+	padding: 15px;
+	width: 200px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease; /* Added transition for box-shadow */
+  }
+  
+  .event-card:hover {
+	box-shadow: 0 4px 8px #1304de;
+  }
+  
+  .event-info {
+	margin-bottom: 10px;
+	transition: transform 0.3s ease; /* Added transition for transform */
+  }
+  
+  .event-title {
+	font-weight: bold;
+	color: #0712e7;
+  }
+  
+  .event-date {
+	color: #2a03ed;
+  }
+  
+  .event-actions {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .delete-btn:hover {
+	background-color: #bd137f;
+	color: white;
+  }
+  
+  .rem-para {
+	background-color: #0c0096;
+	color: white;
+	padding: 2px;
+	width: fit-content;
+	position: relative;
+	left: -1px;
+	bottom: 22px;
+	transition: background-color 0.3s ease; /* Added transition for background-color */
+  }
+  
+  .gfg {
+	padding: 15px;
+	color: white;
+	background-color: #673AB7;
+	border-radius: 25px;
+	transition: transform 0.3s ease; /* Added transition for transform */
+  }
+  
+  /* form */
+  input {
+	padding: 5px;
+	width: 500px;
+  }
+  
+  form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px solid #E91E63;
+	padding: 20px;
+	border-radius: 10px;
+	gap: 5px;
+	background-color: #a61dcc;
+	transition: border-color 0.3s ease, background-color 0.3s ease; /* Added transition for border-color and background-color */
+  }
+  
+  .main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: fadeIn 1s ease; /* Added animation for fadeIn */
+  }
+  
+  label {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 500;
+  }
+  
+  /* Keyframes for fadeIn animation */
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+  
